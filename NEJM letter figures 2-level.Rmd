@@ -359,6 +359,7 @@ df_rate <- df_rate %>% mutate(age = age + month/12)
 fit1 <- lm(rate ~ month + group + age + sex, data = df_rate)
 summary(fit1)
 ```
+
 ```{r}
 
 ```
